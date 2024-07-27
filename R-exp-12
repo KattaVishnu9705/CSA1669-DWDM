@@ -1,0 +1,10 @@
+##Z score normalization
+data <- matrix(c(10, 20, 30, 40, 50), nrow = 5, ncol = 1)
+z_score_normalization <- function(x) {
+  (x - mean(x)) / sd(x)
+}
+normalized_data <- apply(data, 2, z_score_normalization)
+cat("Original data:\n")
+print(data)
+cat("\nNormalized data (Z-scores):\n")
+print(normalized_data)
