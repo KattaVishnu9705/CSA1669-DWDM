@@ -1,0 +1,12 @@
+@relation Item
+@attribute 1{bread,cheese,egg,juice}
+@attribute 2{bread,cheese,juice}
+@attribute 3{bread,milk,yogurt}
+@attribute 4{bread,juice,milk}
+@attribute 5{cheese,juice,milk}
+@data
+bread,cheese,milk,juice,cheese
+cheese,juice,yogurt,milk,juice
+egg,bread,milk,juice,cheese
+juice,bread,yogurt,milk,cheese
+bread,juice,milk,bread,cheese
