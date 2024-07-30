@@ -1,0 +1,11 @@
+@relation Items
+@attribute T1{sony,bpl,lg}
+@attribute T2{bpl,samsung}
+@attribute T3{bpl,onida}
+@attribute T4{sony,bpl,samsung}
+@attribute T5{sony,onida}
+@data
+sony,bpl,onida,samsung,sony
+bpl,samsung,bpl,samsung,sony
+sony,bpl,onida,sony,onida
+lg,samsung,onida,bpl,sony
